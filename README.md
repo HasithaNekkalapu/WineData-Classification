@@ -2,15 +2,15 @@
 
 Preprocessing the Data:
 
-Initially, we check if there are any duplicate values in the Data Set and remove them.
+	Initially, we check if there are any duplicate values in the Data Set and remove them.
 	Sklearn provides RFE for recursive feature elimination and we use this to fine tune the parameters. Here, we rank the features and eliminate ones with the lowest rank. The number of parameters to be selected was set to 9.
 	Then Standardize the dataset by using preprocess.scale
 
 Classification Methods:
 
-Multiple classification methods were used, and Random Forest Classification method gave the best accuracy by far (66%-70% approx.).
-Before preprocessing the data, accuracy was 63%-65% and it increased by 3%(approx.) after preprocessing
-The next highest accuracy was given by Decision Tree Classifier (60%-64%) 
+	Multiple classification methods were used, and Random Forest Classification method gave the best accuracy by far (66%-70% approx.).
+	Before preprocessing the data, accuracy was 63%-65% and it increased by 3%(approx.) after preprocessing
+	The next highest accuracy was given by Decision Tree Classifier (60%-64%) 
 
 Stratified K-Fold Cross Validation:
 
